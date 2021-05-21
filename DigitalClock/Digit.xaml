@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="DigitalClock.Digit"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DigitalClock"
+             mc:Ignorable="d" 
+             d:DesignHeight="250" d:DesignWidth="140">
+    <Viewbox>
+        <Canvas Height="250" Width="140">
+        <Path x:Name="A" Data="M 129,41 L120,110 L109,120 L102,110 L111,42  L121,32 Z" Fill="Red"/>
+        <Path x:Name="B" Data="M 115 134 L105 203 L95,214  L88 204 L96 136 L107 125 Z" Fill="Red"/>
+        <Path x:Name="C" Data="M 91,217 L83,227 L29,227 L22 ,217 L33,206 L85,206 Z" Fill="Red"/>
+        <Path x:Name="D" Data="M20 ,214 L13,204 L22,135 L33,126 L39,135 L30,203 Z" Fill="Red"/>
+        <Path x:Name="E" Data="M34,118 L27,108 L34,40 L46,30 L54,39  L45,107 Z" Fill="Red"/>
+        <Path x:Name="F" Data="M50 ,29 L59,18 L112,18 L119,29 L109,39 L55,39 Z" Fill="Red"/>
+        <Path x:Name="G" Data="M36 ,122 L46,110 L99,110 L106,122 L96,133 L42,133 Z" Fill="Red"/>
+    </Canvas>
+        </Viewbox>
+</UserControl>
